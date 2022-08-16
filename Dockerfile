@@ -32,7 +32,7 @@ RUN cd massdns ; make all ; cd ..
 RUN wget https://github.com/projectdiscovery/subfinder/releases/download/v2.4.5/subfinder_2.4.5_linux_amd64.tar.gz
 RUN tar -xzvf subfinder_2.4.5_linux_amd64.tar.gz
 RUN mv subfinder  /usr/local/bin
-RUN go get github.com/cgboal/sonarsearch/crobat
+RUN go get github.com/cgboal/sonarsearch/cmd/crobat
 RUN git clone https://github.com/jakejarvis/subtake.git
 RUN go get github.com/jakejarvis/subtake
 RUN wget https://github.com/OWASP/Amass/releases/download/v3.10.5/amass_linux_amd64.zip
