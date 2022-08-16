@@ -1,4 +1,4 @@
-# SubNuke
+# SubNuke But I modified it to work. (by cybe)
 Subdomain Takeover tool with web UI
 <br>
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
