@@ -21,8 +21,8 @@ COPY . /app
 # Install all the tools
 RUN git clone https://github.com/robertdavidgraham/masscan
 RUN cd masscan; make -j ; cd ..
-RUN wget https://dl.google.com/go/go1.13.4.linux-amd64.tar.gz
-RUN tar -xvf go1.13.4.linux-amd64.tar.gz
+RUN wget https://dl.google.com/go/go1.17.3.linux-amd64.tar.gz
+RUN tar -xvf go1.17.3.linux-amd64.tar.gz
 RUN mv go /usr/local
 ENV GOROOT=/usr/local/go
 ENV GOPATH=$HOME/go
